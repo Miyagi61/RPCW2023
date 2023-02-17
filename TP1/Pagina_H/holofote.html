@@ -1,0 +1,66 @@
+<html>
+ <head>
+ <title> Holofote </title>
+ <style>
+   .txt_imagem {
+     position: absolute;
+     color: white;
+     right: 20px;
+     font-size: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   .btn{
+      position: absolute;
+      right: 45%;
+      font-size: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+   }
+   .img {
+      opacity: 1;
+      width: 100%;
+   }
+   .background {
+      background-color: black;
+      height: auto;
+   }
+ </style>
+ <script type="text/javascript">
+   function on_off() {
+     var x = document.getElementById("back").style.background;
+     console.log(x);
+     if (x == "white") {
+       document.getElementById("botao").innerHTML = "Ligar Holofote";
+       document.getElementById("back").style.background = "black";
+     } else {
+       document.getElementById("botao").innerHTML = "Desligar Holofote";
+       document.getElementById("back").style.background = "white";
+     }
+   }
+
+</script>
+ </head>
+ <body>
+  <div id="back" class="background">
+    <div class="btn">
+      <button id="botao" onclick="on_off()">Ligar Holofote</button>
+    </div>
+    <div class="txt_imagem"> Holofotes </div>
+    <img src="R.jpeg"  alt="Holofote" width="100%">
+    <p><b>Holofote</b> é um dispositivo de iluminação constituído de uma lâmpada fotovoltaica e uma lente refletora ou deflatora capaz de lançar um facho de luz no céu. A intensa luz pode ser usada para guiar aeronaves durante nevoeiro ou simplesmente, durante os ataques aéreos, permitir apontar os canhões para as aeronaves inimigas durante os bombardeamentos das mesmas. (Fonte: <a href="https://pt.wikipedia.org/wiki/Holofote">Wikipedia</a>)</p>
+    <hr>
+    <h2>Exemplos de lojas online onde pode ser comprado</h2>
+    <ul>
+      <li>
+        <a href="https://www.worten.pt">Worten</a>
+      </li>
+      <li>
+        <a href="https://pt.aliexpress.com">AliExpress</a>
+      </li>
+      <li>
+        <a href="https://www.fnac.com">Fnac</a>
+      </li>
+    </ul>
+    <hr>
+  </div>
+ </body>
+    </html>
