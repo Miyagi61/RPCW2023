@@ -1,0 +1,25 @@
+arq.xml ->
+arq1.xml
+...
+arq119.xml
+
+
+python
+
+pip install Beatifulsoup
+pip install lxml
+
+localhost:porta/1 -> arq1.xml
+...
+-------------------
+
+localhost:porta/
+index.html
+indice com links
+p.ex   Castro -> href="/3" 
+
+--------------------
+
+conversao de xml para html
+responder com arq1.html
+Beatifulsoup

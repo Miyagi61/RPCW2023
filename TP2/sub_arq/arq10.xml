@@ -1,0 +1,88 @@
+<arqelem>
+ <tipo assunto="arqueossitio">
+ </tipo>
+ <identi>
+  Monte de Lousado
+ </identi>
+ <descri>
+  <liga termo="povoado fortificado">
+   Povoado fortificado
+  </liga>
+ </descri>
+ <crono>
+  Proto-HistÃ³ria / RomanizaÃ§Ã£o
+ </crono>
+ <lugar>
+  Monte do Lousado
+ </lugar>
+ <fregue>
+  Alheira
+ </fregue>
+ <concel>
+  Barcelos
+ </concel>
+ <codadm>
+  030207
+ </codadm>
+ <latitu>
+  517,1
+ </latitu>
+ <longit>
+  165,5
+ </longit>
+ <altitu>
+  300m
+ </altitu>
+ <acesso>
+  O acesso pode fazer-se a partir de Alheira.
+ </acesso>
+ <quadro>
+  O Monte de Lousado situa-se nos limites das freguesias de Alheira e de
+Panque, ambas do concelho de Barcelos. Corresponde ao extremo NE de uma
+pequena crista montanhosa, que se dispÃµe no sentido NE/SO, paralela ao rio
+Neiva. A parte alta desta crista separa as bacias dos rios CÃ¡vado e Neiva.
+ </quadro>
+ <traarq>
+  NÃ£o sÃ£o conhecidos trabalhos arqueolÃ³gicos no local.
+ </traarq>
+ <desarq>
+  O povoado Ã© conhecido e referido na bibliografia, pelo menos, a partir do
+sÃ©culo XVIII. Ã‰ citado por Contador de Argote e por L. Cardoso, no
+"DicionÃ¡rio GeogrÃ¡fico". Apesar dessas referÃªncias e da monumentalidade dos
+seus vestÃ­gios nunca foi objecto de trabalhos arqueolÃ³gicos. A maioria dos
+vestÃ­gios concentra-se na parte mais alta do monte: aÃ­ sÃ£o visÃ­veis restos
+de muralhas e alicerces de construÃ§Ãµes habitacionais. Na superfÃ­cie do
+povoado recolhem-se fragmentos de
+  <liga termo="cerÃ¢mica indÃ­gena">
+   cerÃ¢mica
+indÃ­gena
+  </liga>
+  de fabrico
+  <liga termo="micÃ¡ceo">
+   micÃ¡ceo
+  </liga>
+  e de
+cerÃ¢mica romana.
+ </desarq>
+ <interp>
+  <liga termo="povoado fortificado">
+   Povoado fortificado
+  </liga>
+  romanizado.
+ </interp>
+ <biblio>
+  : FONSECA, T. (1948). O concelho de Barcelos AquÃ©m e AlÃ©m CÃ¡vado,
+Barcelos, 2 Vol., pp. 13; 65-66.
+ </biblio>
+ <biblio>
+  MARTINS, M. (1990). O Povoamento Proto-HistÃ³rico e a RomanizaÃ§Ã£o da Bacia do
+MÃ©dio CÃ¡vado, Cadernos de Arqueologia - Monografias, 5, Universidade do
+Minho, Braga, pp. 73.
+ </biblio>
+ <autor>
+  Manuela Martins
+ </autor>
+ <data>
+  04-Fev-1998
+ </data>
+</arqelem>

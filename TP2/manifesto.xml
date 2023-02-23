@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifesto>
+    <meta>
+        <título>TPC1</título>
+        <data>2023-02-23</data>
+        <autor>
+            <nome>Gonçalo da Cunha Freitas</nome>
+            <id>PG50398</id>
+            <gitlink>https://github.com/Miyagi61/RPCW2023</gitlink>
+        </autor>
+        <uc>RPCW</uc>
+    </meta>
+    <resumo>
+    <h1>Tarefa 1</h1>
+    <p>Função parseLog lê o ficheiro arq.xml e guarda-o numa lista, na qual cada indice contem o nome do arqueositio, o identificador respetivo e o objeto "arqelem" respetivo. A lista está ordenada alfabeticamente pelo nome. </p>
+    <h1>Tarefa 2</h1>
+    <p>Na função generateINDEX, a partir da lista ordenada é criado um índice.</p>
+    <h1>Tarefa 3</h1>
+    <p>Em primeiro lugar, criei um ficheiro dtd para o qual o ficheiro xml fosse valido, de forma a entender a sua estrutura. A função generateHTML, a partir da lista ordenada, cria um ficheiro html com a formatação que entendi. Para navegar a árvore usei ".next_sibling" e no caso de elementos que possuem ligações usei a função getAllChildren na qual dei uso às opções  ".stripped_strings" e ".find_all" </p>
+    </resumo>
+    <resultados>
+        <resultado path="reader.py">Ficheiro com a Tarefa 1 e 2</resultado>
+        <resultado path="geralHTML.py">Ficheiro com a Tarefa 3</resultado>
+        <resultado path="servidor.js">Servidor Node</resultado>
+        <resultado path="arq.dtd">Ficheiro DTD</resultado>
+    </resultados>
+</manifesto>

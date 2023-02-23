@@ -1,0 +1,54 @@
+<arqelem>
+ <tipo assunto="arqueossitio">
+ </tipo>
+ <identi>
+  Pedra Sentada
+ </identi>
+ <descri>
+  Monumento megalÃ­tico
+ </descri>
+ <crono>
+  PrÃ©-HistÃ³ria Recente
+ </crono>
+ <lugar>
+  Malhadouro
+ </lugar>
+ <fregue>
+  VÃ¡rzea Cova
+ </fregue>
+ <concel>
+  Fafe
+ </concel>
+ <codadm>
+  030734
+ </codadm>
+ <latitu>
+  504
+ </latitu>
+ <longit>
+  203,9
+ </longit>
+ <altitu>
+  700m
+ </altitu>
+ <acesso>
+  Faz-se pela E. N. 304 que liga Couforco com a Lagoa.
+ </acesso>
+ <quadro>
+  Zona acidentada, entre Pedra Sentada e o Marco GeodÃ©sico do
+Malhadouro.
+ </quadro>
+ <desarq>
+  <liga termo="mamoa">
+   Mamoa
+  </liga>
+  com sinais da cÃ¢mara funerÃ¡ria, que
+apresenta vestÃ­gios de dois esteios.
+ </desarq>
+ <autor>
+  Manuela Martins
+ </autor>
+ <data>
+  04-FEV-1998
+ </data>
+</arqelem>

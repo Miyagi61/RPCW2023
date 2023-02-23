@@ -1,0 +1,83 @@
+<arqelem>
+ <tipo assunto="arqueossitio">
+ </tipo>
+ <identi>
+  Queijeiros
+ </identi>
+ <descri>
+  <liga termo="povoado fortificado">
+   Povoado fortificado
+  </liga>
+ </descri>
+ <crono>
+  Proto -HistÃ³ria
+ </crono>
+ <lugar>
+  Queijeiros
+ </lugar>
+ <fregue>
+  Abade de Neiva
+ </fregue>
+ <concel>
+  Barcelos
+ </concel>
+ <codadm>
+  030201
+ </codadm>
+ <latitu>
+  510,55
+ </latitu>
+ <longit>
+  156,4
+ </longit>
+ <altitu>
+  150m
+ </altitu>
+ <acesso>
+  O acesso faz-se pela E. N. 103, aproximadamente ao Km 15, no lado esquerdo
+da estrada.
+ </acesso>
+ <quadro>
+  O povoado localiza-se numa pequena elevaÃ§Ã£o situada numa zona agrÃ­cola,
+relativamente plana e bem irrigada por diversos cursos de Ã¡gua.
+ </quadro>
+ <traarq>
+  NÃ£o sÃ£o conhecidos trabalhos arqueolÃ³gicos no local.
+ </traarq>
+ <desarq>
+  Nos lados Norte e Oeste do cabeÃ§o sÃ£o ainda visÃ­veis restos de uma
+fortificaÃ§Ã£o, feita com pedras nÃ£o aparelhadas. Na superfÃ­cie recolhem-se
+alguns fragmentos de
+  <liga termo="tÃ©gula">
+   tÃ©gulas
+  </liga>
+  e pedras
+dispersas, provenientes da destruiÃ§Ã£o de estruturas. No entanto, nÃ£o se
+observam quaisquer alinhamentos de muros. O povoado parece ter possuÃ­do
+apenas uma plataforma, podendo, portanto, ser considerado como povoado
+proto-histÃ³rico de baixa altitude, semelhante ao povoado de Lago, em
+Amares.
+ </desarq>
+ <interp>
+  <liga termo="povoado fortificado">
+   povoado fortificado
+  </liga>
+  proto-histÃ³rico.
+ </interp>
+ <biblio>
+  COSTA, A. G.; A. M. FARIA; J. S. CARVALHO (1980). Sondagens
+arqueolÃ³gicas no concelho de Barcelos: Abade de Neiva, Faria e Roriz, I
+SeminÃ¡rio de arqueologia do Noroeste Peninsular, 2, pp. 11.
+ </biblio>
+ <biblio>
+  MARTINS, M. (1990). O Povoamento Proto-HistÃ³rico e romanizaÃ§Ã£o da Bacia do
+Curso do MÃ©dio CÃ¡vado, Cadernos de Arqueologia - Monografias, 5,
+Universidade do Minho, Braga, pp. 72-73.
+ </biblio>
+ <autor>
+  Manuela Martins
+ </autor>
+ <data>
+  04-Fev-1998
+ </data>
+</arqelem>
