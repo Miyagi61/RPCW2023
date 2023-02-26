@@ -11,6 +11,8 @@
         <uc>RPCW</uc>
     </meta>
     <resumo>
+        <h1>Servidor</h1>
+        O servidor utilizado é similar ao desenvoldido nas aulas. 
     <h1>Tarefa 1</h1>
     <p>Função parseLog lê o ficheiro arq.xml e guarda-o numa lista, na qual cada indice contem o nome do arqueositio, o identificador respetivo e o objeto "arqelem" respetivo. A lista está ordenada alfabeticamente pelo nome. </p>
     <h1>Tarefa 2</h1>
