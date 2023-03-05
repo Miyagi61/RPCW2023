@@ -1,0 +1,29 @@
+
+serviço sobre dataset de pessoas
+
+/localhost:porta/
+
+link para lista de individuos
+distribuicao por sexo (quanto sao de cada sexo, e acesso a cada lista)
+
+distribuicao por desporto 
+
+top 10 de profissoes
+
+-------------------
+
+
+.class  .destaque
+#id   .indice
+*      *
+elemento   h1
+elem1,elem2  h1,i
+
+
+<link rel="stylesheet" type="text/css" href="poema.css"/>
+
+<head>
+<style> </style>
+</head>
+
+<div style="color:red;"/>

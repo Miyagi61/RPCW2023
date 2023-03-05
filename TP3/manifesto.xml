@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifesto>
+    <meta>
+        <título>TPC3</título>
+        <data>2023-03-05</data>
+        <autor>
+            <nome>Gonçalo da Cunha Freitas</nome>
+            <id>PG50398</id>
+            <gitlink>https://github.com/Miyagi61/RPCW2023</gitlink>
+        </autor>
+        <uc>RPCW</uc>
+    </meta>
+    <resumo>
+    <h1>Listar as pessoas</h1>
+    <p>
+        Comecei por reaproveitar o código desenvolvido na aula para o servidor e a página de listagem de pessoas. Apenas tive de criar uma página de índice. 
+    </p>
+    <h1>Distribuições</h1>
+    <p>
+        Para a distribuição por sexo e por profissão percorro todos os valores do array de pessoas e incremento o contador consoante a categoria da pessoa. No caso da distribuição por desportos, a única diferença é que o campo "desportos" é uma lista, ou seja, além de percorrer o array de pessoas é necessário percorrer o de desportos. A ordenação em termos de nomes é feita através das funcionalidades do "json-server". No caso da ordenação por valores númericos esta é feita na função que devolve as distribuições.
+    </p>
+    </resumo>
+    <resultados>
+        <resultado path="mypages.js">Ficheiro com as páginas HTML</resultado>
+        <resultado path="pessoas_server.js">Ficheiro com o servidor</resultado>
+    </resultados>
+</manifesto>

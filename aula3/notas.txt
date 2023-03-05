@@ -1,0 +1,11 @@
+pessoas?nome=Goncalo
+pessoas?morada.cidade=Guimaraes
+pessoas/ID
+pessoas?_start=20&_end=30
+pessaor?_sort=nome&_order=asc
+
+-------
+
+axios.get(rota)
+.then(f(resp){})
+.catch(f(err){})
