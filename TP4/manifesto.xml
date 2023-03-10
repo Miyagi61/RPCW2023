@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifesto>
+    <meta>
+        <título>TPC4</título>
+        <data>2023-03-23</data>
+        <autor>
+            <nome>Gonçalo da Cunha Freitas</nome>
+            <id>PG50398</id>
+            <gitlink>https://github.com/Miyagi61/RPCW2023</gitlink>
+        </autor>
+        <uc>RPCW</uc>
+    </meta>
+    <resumo>
+    <h1>Página</h1>
+    <p>
+    Comecei por dividir a página em três partes, uma para o form principal, outra para a lista toDo e outra para a Done.
+    </p>
+    
+    <h1>Form</h1>
+    <p>
+    Em cada form são enviadas as variáveis necessárias para o servidor. O form principal envia a data, a descrição e quem deve realizar a tarefa. Cada elemento das listas toDo e Done possui três "botões", um para editar, outro para marcar como feito ou por fazer e outro para apagar. Cada um destes butões está dentro de um form. O form de editar envia todas as informações daquela tarefa para o servidor e este vai devolver com uma página onde o formulário principal aparece prenchido com as suas informações. Tanto o form de marcar como feito, por fazer e o de apagar enviam apenas o id da tarefa além do tipo da operação.
+    </p>
+    <h1>Servidor Node</h1>
+    <p>
+    O servidor node tem duas partes, respetivas a cada um dos metodos recebidos, o get e o post.
+    O pedido get apenas devolve a página pretendida se a rota for "/".
+    O pedido post divide-se em várias alternativas. Devido a cada um dos forms enviar também como variável o tipo do formulário (add,done,delete,edit,undone). Tendo em conta esta variável utilizo o metodo respetivo do axios (put,post,patch ou delete).
+    O pedido edit, tal como descrito anteriormente, envia todas as informações da tarefa para o servidor e este devolve a página com o formulário principal preenchido com as informações da tarefa em "modo edit", ou seja, envia para o lado do cliente uma variável escondida que é o id da tarefa.
+    O tratamento do pedido add, começa por verificar se foi enviado um id, caso tenha sido enviado, significa que é um pedido de edit, caso contrário é um pedido de add.
+    </p>
+    </resumo>
+    <resultados>
+        <resultado path="toDo.js">Ficheiro do json-server</resultado>
+        <resultado path="server.js">Ficheiro com o servidor do node</resultado>
+        <resultado path="templates.js">Ficheiro a página html</resultado>
+        <resultado path="static.js">Ficheiro static</resultado>
+    </resultados>
+</manifesto>
