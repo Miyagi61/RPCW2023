@@ -30,7 +30,7 @@
     </p>
     </resumo>
     <resultados>
-        <resultado path="toDo.js">Ficheiro do json-server</resultado>
+        <resultado path="toDo.json">Ficheiro do json-server</resultado>
         <resultado path="server.js">Ficheiro com o servidor do node</resultado>
         <resultado path="templates.js">Ficheiro a página html</resultado>
         <resultado path="static.js">Ficheiro static</resultado>
