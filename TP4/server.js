@@ -41,11 +41,6 @@ function loadPage(res,extra){
                         })
 }
 
-function updateJson(data){
-    
-}
-
-
 // Server creation
 
 var alunosServer = http.createServer(function (req, res) {

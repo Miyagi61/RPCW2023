@@ -1,0 +1,93 @@
+extends layout
+
+block content
+  .w3-card-4
+    header.w3-container.w3-purple
+      h2 New Task
+    form.w3-container(method="POST")
+      input.w3-hide(type="text" name="op" value="add")
+      label(for="date") DateDued
+      input.w3-input.w3-round(type="date" name="date" value=extra.date required)
+
+      label(for="person") Who
+      input.w3-input.w3-round(type="text" name="person" value=extra.person required)
+
+      label(for="task") What
+      input.w3-input.w3-round(type="text" name="task" value=extra.task required)
+      input.w3-hide(type="text" name="id" value=extra.id)
+      button.w3-btn.w3-light-grey.w3-mb-2.w3-display-topright(style="margin-top:12px" type="submit") Add Task
+  
+  .w3-row
+    .w3-container.w3-half.w3-rightbar
+      h2 ToDo
+      table.w3-table-all
+        tr
+          th Task
+          th Done
+          th Delete
+          th Edit
+        each t in info 
+          if(t.done == 0)
+            tr
+              td #{t.task} #[p #[small #[i By: #{t.person}, Until: #{t.date}]]]
+              td
+                form(method="POST")
+                  input.w3-hide(type="text" name="op" value="done")
+                  input.w3-hide(type="text" name="id" value= t.id)
+                  input.w3-hide(type="text" name="person" value= t.person)
+                  input.w3-hide(type="text" name="date" value= t.date)
+                  input.w3-hide(type="text" name="task" value= t.task)
+                  input.w3-check(type="submit" name="_" value="X")
+              td
+                form(method="POST")
+                  input.w3-hide(type="text" name="op" value="delete")
+                  input.w3-hide(type="text" name="id" value= t.id)
+                  input.w3-hide(type="text" name="person" value= t.person)
+                  input.w3-hide(type="text" name="date" value= t.date)
+                  input.w3-hide(type="text" name="task" value= t.task)
+                  input.w3-check(type="submit" name="_" value="X")
+              td
+                form(method="POST")
+                  input.w3-hide(type="text" name="op" value="edit")
+                  input.w3-hide(type="text" name="id" value= t.id)
+                  input.w3-hide(type="text" name="person" value= t.person)
+                  input.w3-hide(type="text" name="date" value= t.date)
+                  input.w3-hide(type="text" name="task" value= t.task)
+                  input.w3-check(type="submit" name="_" value="X")
+           
+    .w3-container.w3-half
+      h2 Done
+      table.w3-table-all
+        tr
+          th Task
+          th Undone
+          th Delete
+          th Edit
+        each t in info
+          if(t.done == 1)
+            tr
+              td #{t.task} #[p #[small #[i By: #{t.person}]]]
+              td
+                form(method="POST")
+                  input.w3-hide(type="text" name="op" value="undone")
+                  input.w3-hide(type="text" name="id" value= t.id)
+                  input.w3-hide(type="text" name="person" value= t.person)
+                  input.w3-hide(type="text" name="date" value= t.date)
+                  input.w3-hide(type="text" name="task" value= t.task)
+                  input.w3-check(type="submit" name="_" value="X")
+              td
+                form(method="POST")
+                  input.w3-hide(type="text" name="op" value="delete")
+                  input.w3-hide(type="text" name="id" value= t.id)
+                  input.w3-hide(type="text" name="person" value= t.person)
+                  input.w3-hide(type="text" name="date" value= t.date)
+                  input.w3-hide(type="text" name="task" value= t.task)
+                  input.w3-check(type="submit" name="_" value="X")
+              td
+                form(method="POST")
+                  input.w3-hide(type="text" name="op" value="edit")
+                  input.w3-hide(type="text" name="id" value= t.id)
+                  input.w3-hide(type="text" name="person" value= t.person)
+                  input.w3-hide(type="text" name="date" value= t.date)
+                  input.w3-hide(type="text" name="task" value= t.task)
+                  input.w3-check(type="submit" name="_" value="X")

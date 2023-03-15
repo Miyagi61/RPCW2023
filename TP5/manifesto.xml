@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifesto>
+    <meta>
+        <título>TPC5</título>
+        <data>2023-03-15</data>
+        <autor>
+            <nome>Gonçalo da Cunha Freitas</nome>
+            <id>PG50398</id>
+            <gitlink>https://github.com/Miyagi61/RPCW2023</gitlink>
+        </autor>
+        <uc>RPCW</uc>
+    </meta>
+    <resumo>
+    <h1>Adaptação</h1>
+    <p>
+    Em relação ao funcionamento é igual ao tpc4, contudo agora com ferramentas diferentes. Na secção dos resultados apenas incluí os ficheiros que sofreram mais alterações.  
+    </p>
+    </resumo>
+    <resultados>
+        <resultado path="views/index.pug">Ficheiro adaptado a partir do template do tpc anterior</resultado>
+        <resultado path="controllers/toDo.js">Ficheiro na camada de controlo com os pedidos axios</resultado>
+        <resultado path="toDo.json">Ficheiro do json-server</resultado>
+    </resultados>
+</manifesto>
