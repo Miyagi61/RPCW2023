@@ -13,37 +13,92 @@ block content
           li #[b Morada:] #{a.cidade},#{a.distrito}
           li #[b BI:] #{a.BI}
           li #[b Profissão:] #{a.profissao}
-          li #[b Partido Político:] #{a.partido_politico.party_name} (#{a.partido_politico.party_abbr})  
+          li #[b Partido Político:] #{a.party_name} (#{a.party_abbr})  
           li #[b Religião:] #{a.religiao}
           li #[b Desportos:]
-          ul.w3-ul
-            each desp in a.desportos
+          ol.w3-ol
+            each desp in a.desportos.split(",")
               li=desp
           li #[b Animais:]
-          ul.w3-ul
-            each animal in a.animais
+          ol.w3-ol
+            each animal in a.animais.split(",")
               li=animal
           li #[b Figura Pública PT:]
-          ul.w3-ul
-            each fig in a.figura_publica_pt
+          ol.w3-ol
+            each fig in a.figura_publica_pt.split(",")
               li=fig
           li #[b Marca Carro:] #{a.marca_carro}
           li #[b Destinos Favoritos:]
-          ul.w3-ul
-            each dest in a.destinos_favoritos
+          ol.w3-ol
+            each dest in a.destinos_favoritos.split(",")
               li=dest
           .w3-container 
             fieldset.w3-margin 
               legend Atributos
-              each atrib in a.atributos
-                  if atrib == "comida_favorita"
-                    b Comida Favorita #{a.atributos.atrib}  
-                  else if a.atributos.atrib
-                      input.w3-check(type="checkbox" name=atrib value="1" checked)
-                      label= atrib
-                  else
-                      input.w3-check(type="checkbox" name=atrib value="0")
-                      label= atrib
+              p
+                if a.fumador
+                  label Fumador    
+                  input.w3-check(type="checkbox" name="fumador" value="1" checked disabled)
+                else
+                  label Fumador    
+                  input.w3-check(type="checkbox" name="fumador" value="1" disabled)                  
+              p  
+                if a.gosta_cinema
+                  label Gosta de cinema    
+                  input.w3-check(type="checkbox" name="gosta_cinema" value="1" checked disabled)
+                else
+                  label Gosta de cinema    
+                  input.w3-check(type="checkbox" name="gosta_cinema" value="1" disabled)                 
+              p
+                if a.gosta_viajar
+                  label Gosta de viajar    
+                  input.w3-check(type="checkbox" name="gosta_viajar" value="1" checked disabled)
+                else
+                  label Gosta de viajar    
+                  input.w3-check(type="checkbox" name="gosta_viajar" value="1" disabled)                 
+              p
+                if a.acorda_cedo
+                  label Acorda cedo    
+                  input.w3-check(type="checkbox" name="acorda_cedo" value="1" checked disabled)
+                else
+                  label Acorda cedo    
+                  input.w3-check(type="checkbox" name="acorda_cedo" value="1" disabled)                 
+              p
+                if a.gosta_ler
+                  label Gosta de ler    
+                  input.w3-check(type="checkbox" name="gosta_ler" value="1" checked disabled)
+                else
+                  label Gosta de ler    
+                  input.w3-check(type="checkbox" name="gosta_ler" value="1" disabled)                 
+              p
+                if a.gosta_musica
+                  label Gosta de música    
+                  input.w3-check(type="checkbox" name="gosta_musica" value="1" checked disabled)
+                else
+                  label Gosta de música    
+                  input.w3-check(type="checkbox" name="gosta_musica" value="1" disabled)                 
+              p
+                if a.gosta_comer
+                  label Gosta de comer    
+                  input.w3-check(type="checkbox" name="gosta_comer" value="1" checked disabled)
+                else
+                  label Gosta de comer    
+                  input.w3-check(type="checkbox" name="gosta_comer" value="1" disabled)                 
+              p
+                if a.gosta_animais_estimacao
+                  label Gosta de animais de estimação    
+                  input.w3-check(type="checkbox" name="gosta_animais_estimacao" value="1" checked disabled)
+                else
+                  label Gosta de animais de estimação    
+                  input.w3-check(type="checkbox" name="gosta_animais_estimacao" value="1" disabled)                 
+              p
+                if a.gosta_dancar
+                  label Gosta de dançar    
+                  input.w3-check(type="checkbox" name="gosta_dancar" value="1" checked disabled)
+                else
+                  label Gosta de dançar    
+                  input.w3-check(type="checkbox" name="gosta_dancar" value="1")
+              p #[b Comida Favorita:] #{a.comida_favorita}
     footer.w3-container.w3-teal 
       h5 Generated by RPCW2023 in #{d} - #[a(href="/") Return]
 

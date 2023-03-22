@@ -80,11 +80,11 @@ router.post('/pessoas/registo', (req,res) => {
 })
 
 // POST Student Update Form
-router.post('/pessoas/edit', (req,res) => {
+router.post('/pessoas/edit/:idPessoa', (req,res) => {
   var data = new Date().toISOString().substring(0, 16)
   Pessoa.updatePessoa(req.body)
     .then(pessoa => {
-      res.render('updatePessoaConfirm', {a: pessoa})
+      res.render('updatePessoaConfirm', {a: req.body})
     })
     .catch(erro => {
       res.render('error', {error: erro, message: "Erro na alteração do registo de pessoa"})

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifesto>
+    <meta>
+        <título>TPC6</título>
+        <data>2023-03-22</data>
+        <autor>
+            <nome>Gonçalo da Cunha Freitas</nome>
+            <id>PG50398</id>
+            <gitlink>https://github.com/Miyagi61/RPCW2023</gitlink>
+        </autor>
+        <uc>RPCW</uc>
+    </meta>
+    <resumo>
+    <h1>Adaptação</h1>
+    <p>
+    Em relação ao funcionamento é similar à aplicação disponibilizada pelo professor (AppAlunos), contudo agora com uma base de dados diferente. Isso levou essencialmente a alterações no ficheiro de controlo (controllers/pessoas.js), no ficheiro de modelo (models/pessoas.js) e aos ficheiros pug (views/*).
+    </p>
+    </resumo>
+    <resultados>
+        <resultado path="views/*">Todos os ficheiros pug com as vistas disponíveis</resultado>
+        <resultado path="controllers/pessoas.js">Ficheiro na camada de controlo com os pedidos ao MongoDB</resultado>
+        <resultado path="models/pessoas.js">Ficheiro que cria o modelo das entradas da base de dados e criação dos seus schemas</resultado>
+    </resultados>
+</manifesto>

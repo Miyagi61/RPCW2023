@@ -10,6 +10,7 @@ block content
           th Nome
           th Genero
           th Idade
+          th Morada
           th Actions
         
         each s in slist
@@ -18,6 +19,7 @@ block content
               a(href="/pessoas/"+s.id)= s.nome
             td=s.sexo
             td=s.idade
+            td #{s.morada.cidade},#{s.morada.distrito}
             td
               button.w3-btn.w3-round.w3-indigo.w3-margin-right 
                 a(href="/pessoas/edit/"+s.id) Edit
