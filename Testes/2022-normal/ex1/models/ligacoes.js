@@ -7,6 +7,6 @@ var ligacaoSchema = new mongoose.Schema({
     distancia: Number,
 },{ versionKey: false, _id: false })
     
-module.exports = mongoose.model('ligacao',ligacaoSchema)
+module.exports = mongoose.model('ligacoes',ligacaoSchema)
     
   

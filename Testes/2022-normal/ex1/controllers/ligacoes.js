@@ -2,11 +2,10 @@ var Ligacoes = require("../models/ligacoes")
 var mongoose = require('mongoose')
 
 // Ligacoes list
-module.exports.getLigacoesPorOrigem = origem => {
+module.exports.getLigacoesPorOrigem = or => {
     // falta ir buscar os nomes das cidades
-    return Ligacoes.find({origem:origem},{id:1,destino:1}).sort({"id":-1})
+    return Ligacoes.find({origem:or},{id:1,destino:1,_id:0})
         .then(resposta => {
-            console.dir(resposta)
             return resposta})
         .catch(erro => {
             return erro})
@@ -14,9 +13,9 @@ module.exports.getLigacoesPorOrigem = origem => {
 
 module.exports.getLigacoesPorDistancia = dist => {
     // falta ir buscar os nomes das cidades
-    return Ligacoes.find({distancia:{$gte:dist}},{id:1,origem:1,destino:1}).sort({"id":-1})
+    console.dir(dist)
+    return Ligacoes.find({"distância":{"$gte":parseFloat(dist)}},{id:1,origem:1,destino:1})
         .then(resposta => {
-            console.dir(resposta)
             return resposta})
         .catch(erro => {
             return erro})
