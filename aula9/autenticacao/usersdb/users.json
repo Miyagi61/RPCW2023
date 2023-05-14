@@ -1,0 +1,12 @@
+{
+    "users" : [
+        {
+            "id" : "u1",
+            "username" : "michi",
+            "password" : ".",
+            "name" : "biri biri biri",
+            "level" : "admin",
+            "dateCreated" : "2023-04-24"
+        }
+    ]
+}
